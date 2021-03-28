@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>como funciona el tiempo en javascript</title>
+
+</head>
+<body>
+    <script>
+        console.log('a')
+        setTimeout(()=>console.log('b'),0)//funcion que ejecuta algo en cierto tiempo
+        //si colocamos 0 segundos
+        console.log('c')
+
+        setTimeout(()=> console.log('d'),2000)
+        for (var i = 0; i<10000;i++)
+        {}//veamos cuanto tarda en aparecer d en pantalla
+        //java sigue ejecutando la tarea principal,la tarea esta lista pero java no lo hace hasta que termine en el ciclo principal
+   </script>
+    
+    
+</body>
+</html>

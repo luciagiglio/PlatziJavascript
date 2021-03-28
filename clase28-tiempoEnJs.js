@@ -1,0 +1,1 @@
+//js ejecuta codigo asincrono
