@@ -12,7 +12,7 @@ const onPeopleResponse = function (persona){
 //vamos a cambiar la funcion para ordenar la secuencia de ejecucion que vamos a querer
 function obtenerPersonaje(id){
 const url = `${API_URL}${PEOPLE_URL.replace(':id',id)}`
-$get(url, opts, onPeopleResponse)
+$.get(url, opts, onPeopleResponse)
 }
 
 //asincronismo de javascript
